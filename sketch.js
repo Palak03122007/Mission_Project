@@ -71,6 +71,14 @@ function draw() {
 
   packageSprite.x = helicopterSprite.x
 
+  if(packageSprite.y > 250 && packageSprite.x < 300){
+	  background("red");
+  }
+
+  if(packageSprite.y > 250 && packageSprite.x > 500){
+	background("red");
+  }
+
   drawSprites();
   
 }
